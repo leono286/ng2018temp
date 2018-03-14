@@ -13,13 +13,36 @@
     align-content: center;
     justify-content: flex-end;
     margin: 10%;
-    
+    position: relative;
+
+    img.big-circle.animated {
+      position: absolute;
+      top: -5%;
+      left: 45%;
+      transition: transform 0.8s ease-out;
+    }
+
+    img.middle-circle.animated {
+      position: absolute;
+      top: 38%;
+      left: 47%;
+      transition: transform 0.8s ease-out;
+    }
+
+    img.small-circle.animated {
+      position: absolute;
+      top: 16%;
+      left: 42%;
+      transition: transform 0.8s ease-out;
+    }
+   
     .big-text {
       text-align: right;
       font-weight: bold;
       color: #211056;
       font-size: 21vw;
       line-height: 21vw;
+      position: relative;
     }
 
     .text {

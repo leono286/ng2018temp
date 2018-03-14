@@ -1,5 +1,8 @@
-<div class="wrapper">
-  <div class="middle-container">
+<div id="box" class="wrapper" (mousemove)="animateElements($event)" (mouseout)="updateValues($event)">
+  <div  class="middle-container" >
+    <img #bigCircle src="assets/img/big-circle.png" alt="" class="big-circle animated">
+    <img #middleCircle src="assets/img/middle-circle.png" alt="" class="middle-circle animated">
+    <img #smallCircle src="assets/img/small-circle.png" alt="" class="small-circle animated">
     <div class="big-text">
       <div>
         Call
